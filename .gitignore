@@ -7,7 +7,6 @@ __pycache__/
 
 # Külső klónozott repó (a saját .git mappájával) és az abból generált add-on csomag
 blender_mcp/
-blender_mcp_addon.zip
 
 # Blender biztonsági mentések
 *.blend1

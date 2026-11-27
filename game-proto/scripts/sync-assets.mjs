@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url'
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const src = join(root, '..', 'assets')
 const dst = join(root, 'public')
-const files = ['factory.glb', 'truck.glb']
+const files = ['factory.glb', 'truck.glb', 'powerplant.glb']
 
 mkdirSync(dst, { recursive: true })
 for (const f of files) {

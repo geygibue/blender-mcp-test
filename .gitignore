@@ -1,0 +1,24 @@
+# Függőségek és build kimenet
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.pyc
+
+# Külső klónozott repó (a saját .git mappájával) és az abból generált add-on csomag
+blender_mcp/
+blender_mcp_addon.zip
+
+# Blender biztonsági mentések
+*.blend1
+*.blend2
+
+# Claude Code helyi beállítások
+.claude/settings.local.json
+
+# Szerkesztő / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
